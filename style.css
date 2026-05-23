@@ -1,0 +1,74 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+img {
+  border-radius: 70px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("/assets/img/logos/background\ dessa.jpg");
+  font-family: "Trebuchet MS";
+  color: white;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.redirect a{
+  font-size: 19px;
+  border-radius: 30px;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  margin: 10px;
+  color: rgb(13, 114, 6);
+  text-decoration: none;
+}
+
+.redirect a {
+  background-color: white;
+}
+
+.redirect a:hover {
+  background-color:  rgb(13, 114, 6);
+  color: white;
+  transition: 0.5s;
+}
+
+.redirect a:active {
+  background-color: rgb(10, 63, 5);
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .link-item {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  img {
+    width:;
+    
+  }
+}
+
+.container  {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+        
+        
+
+}
+
+
+
